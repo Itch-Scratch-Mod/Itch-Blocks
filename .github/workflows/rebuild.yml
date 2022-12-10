@@ -61,4 +61,4 @@ jobs:
         with:
           token: ${{ secrets.t }}
           event-type: update
-          repository: PenguinMod/PenguinMod-Gui
+          repository: Itch-Scratch-Mod/Itch-Gui
