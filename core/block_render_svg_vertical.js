@@ -139,7 +139,7 @@ Blockly.BlockSvg.STATEMENT_INPUT_INNER_SPACE = 2 * Blockly.BlockSvg.GRID_UNIT;
  * Height of the top hat.
  * @const
  */
-Blockly.BlockSvg.START_HAT_HEIGHT = 16;
+Blockly.BlockSvg.START_HAT_HEIGHT = 0;
 
 /**
  * Height of the vertical separator line for icons that appear at the left edge
