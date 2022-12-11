@@ -246,6 +246,32 @@ Blockly.Blocks['operator_and'] = {
   }
 };
 
+Blockly.Blocks['operator_nand'] = {
+  /**
+   * Block for "and" boolean comparator.
+   * @this Blockly.Block
+   */
+  init: function() {
+    this.jsonInit({
+      "message0": Blockly.Msg.OPERATORS_NAND,
+      "args0": [
+        {
+          "type": "input_value",
+          "name": "OPERAND1",
+          "check": "Boolean"
+        },
+        {
+          "type": "input_value",
+          "name": "OPERAND2",
+          "check": "Boolean"
+        }
+      ],
+      "category": Blockly.Categories.operators,
+      "extensions": ["colours_operators", "output_boolean"]
+    });
+  }
+};
+
 Blockly.Blocks['operator_or'] = {
   /**
    * Block for "or" boolean comparator.
@@ -254,6 +280,32 @@ Blockly.Blocks['operator_or'] = {
   init: function() {
     this.jsonInit({
       "message0": Blockly.Msg.OPERATORS_OR,
+      "args0": [
+        {
+          "type": "input_value",
+          "name": "OPERAND1",
+          "check": "Boolean"
+        },
+        {
+          "type": "input_value",
+          "name": "OPERAND2",
+          "check": "Boolean"
+        }
+      ],
+      "category": Blockly.Categories.operators,
+      "extensions": ["colours_operators", "output_boolean"]
+    });
+  }
+};
+
+Blockly.Blocks['operator_xor'] = {
+  /**
+   * Block for "or" boolean comparator.
+   * @this Blockly.Block
+   */
+  init: function() {
+    this.jsonInit({
+      "message0": Blockly.Msg.OPERATORS_XOR,
       "args0": [
         {
           "type": "input_value",
