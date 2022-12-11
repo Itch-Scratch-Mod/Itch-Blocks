@@ -14,7 +14,7 @@ jobs:
       - name: set py ver
         uses: actions/setup-python@v4
         with:
-         python-version: '2.7.17'
+         python-version: '2.7.18'
       - name: Rebuild 
         run: |
          npm install
