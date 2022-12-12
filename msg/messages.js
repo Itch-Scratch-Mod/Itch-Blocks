@@ -203,6 +203,7 @@ Blockly.Msg.OPERATORS_LETTEROF_APPLE = 'a';
 Blockly.Msg.OPERATORS_LENGTH = 'length of %1';
 Blockly.Msg.OPERATORS_CONTAINS = '%1 contains %2?';
 Blockly.Msg.OPERATORS_REGEXP = '%2 matches RegExp %1?';
+Blockly.Msg.OPERATORS_REGEXPG = '%2 matches RegExp %1 globally?';
 Blockly.Msg.OPERATORS_MOD = '%1 mod %2';
 Blockly.Msg.OPERATORS_ROUND = 'round %1';
 Blockly.Msg.OPERATORS_MATHOP = '%1 of %2';

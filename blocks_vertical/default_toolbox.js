@@ -507,6 +507,18 @@ Blockly.Blocks.defaultToolbox = '<xml id="toolbox-categories" style="display: no
         '</shadow>' +
       '</value>' +
     '</block>' +
+    '<block type="operator_regexpg" id="operator_regexpg">' +
+      '<value name="REGEXP">' +
+        '<shadow type="text">' +
+          '<field name="TEXT">^(.*)\.(sb[23]?|ich)$</field>' +
+        '</shadow>' +
+      '</value>' +
+      '<value name="STRING">' +
+        '<shadow type="text">' +
+          '<field name="TEXT">itch.ich</field>' +
+        '</shadow>' +
+      '</value>' +
+    '</block>' +
     '<block type="operator_mod" id="operator_mod">' +
       '<value name="NUM1">' +
         '<shadow type="math_number">' +
