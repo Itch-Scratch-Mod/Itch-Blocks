@@ -116,6 +116,20 @@ Blockly.Blocks['looks_think'] = {
   }
 };
 
+Blockly.Blocks['looks_clearspeech'] = {
+  /**
+   * Hide block.
+   * @this Blockly.Block
+   */
+  init: function() {
+    this.jsonInit({
+      "message0": Blockly.Msg.LOOKS_CLEARSPEECH,
+      "category": Blockly.Categories.looks,
+      "extensions": ["colours_looks", "shape_statement"]
+    });
+  }
+};
+
 Blockly.Blocks['looks_show'] = {
   /**
    * Show block.

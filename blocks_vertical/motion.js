@@ -236,6 +236,30 @@ Blockly.Blocks['motion_goto'] = {
   }
 };
 
+Blockly.Blocks['motion_distancexy'] = {
+  /**
+   * Block to go to a menu item.
+   * @this Blockly.Block
+   */
+  init: function() {
+    this.jsonInit({
+      "message0": Blockly.Msg.MOTION_DISTANCEXY,
+      "args0": [
+        {
+          "type": "input_value",
+          "name": "X"
+        },
+        {
+          "type": "input_value",
+          "name": "Y"
+        }
+      ],
+      "category": Blockly.Categories.motion,
+      "extensions": ["colours_motion", "output_number"]
+    });
+  }
+};
+
 Blockly.Blocks['motion_glidesecstoxy'] = {
   /**
    * Block to glide for a specified time.
