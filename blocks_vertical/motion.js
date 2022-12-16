@@ -236,14 +236,14 @@ Blockly.Blocks['motion_goto'] = {
   }
 };
 
-Blockly.Blocks['motion_distancexy'] = {
+Blockly.Blocks['motion_distancetoxy'] = {
   /**
    * Block to go to a menu item.
    * @this Blockly.Block
    */
   init: function() {
     this.jsonInit({
-      "message0": Blockly.Msg.MOTION_DISTANCEXY,
+      "message0": Blockly.Msg.MOTION_DISTANCETOXY,
       "args0": [
         {
           "type": "input_value",
